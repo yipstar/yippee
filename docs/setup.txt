@@ -1,0 +1,2 @@
+Enable SSID broadcast for Hotspot setup:
+https://devtalk.nvidia.com/default/topic/910608/setting-up-wifi-access-point-on-tx1/
