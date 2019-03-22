@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="mav_ros" type="mavros_node" name="mavros_node">
+    <param name="fcu_url" value="/dev/ttyACM0:115200" />
+    <param name="gcs_url" value="udp://@192.168.77.15" />
+  </node>
+</launch>
