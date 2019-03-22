@@ -3,4 +3,12 @@
     <param name="fcu_url" value="/dev/ttyACM0:115200" />
     <param name="gcs_url" value="udp://@192.168.77.15" />
   </node>
+
+  <node pkg="yippee" type="record_node" name="record_node" />
+
+  <node pkg="jetson_csi_cam" type="csi_cam" name="csi_cam">
+    <param name="width" value="640" />
+    <param name="height" value="480" />
+  </node>
+
 </launch>
