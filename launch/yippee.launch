@@ -6,9 +6,9 @@
 
   <node pkg="yippee" type="record_node.py" name="record_node" />
 
-  <node pkg="jetson_csi_cam" type="csi_cam" name="csi_cam">
-    <param name="width" value="640" />
-    <param name="height" value="480" />
-  </node>
+  <include file="$(find jetson_csi_cam)/jetson_csi_cam.launch">
+    <arg name="width" value="640" />
+    <arg name="height" value="480" />
+  </include>
 
 </launch>
